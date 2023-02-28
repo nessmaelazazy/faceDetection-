@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.head{
+    font-size: 64px;
+    color: #362FD9;
+    position: relative;
+}
+.head::before{
+    content: "";
+    position: absolute;
+    background-color: #00F5FF;
+    width: 150px;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.head::after{
+    content: "";
+    position: absolute;
+    background-color: #00F5FF;
+    width: 150px;
+    height: 2px;
+    left: 50%;
+    top: 110%;
+    transform: translateX(-50%);
+}
+.navbar a {
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #00F5FF;
+}
+
+.ic {
+    color: #00F5FF;
+}
+
+header {
+    background-color: rgb(255, 241, 224);
+}
+
+header img {
+    margin-left: 120px;
+}
+
+.welcome {
+    background-color: black;
+}
+
+.welcome h1 {
+    margin-top: 20px;
+}
+
+
+.wwd{
+    background-image: url(../images/nsplsh_c290af62eb9f471993ab237d268a34ec_mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; 
+}
+.wwd h1{
+    font-size: 54px;
+    color: #FDFF00;
+    font-weight: bold;
+    position: relative;
+}
+
+.wwd h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #3A98B9;
+}
+.wwd p{
+    color: #ECF2FF  ;
+    font-size: 22px;
+}
+.wwd hr{
+    width: 50%;
+    color: black;
+    font-size: 8px;
+    margin: 0 auto;
+}
+@media (max-width:767px) {
+    header img {
+        margin: 0;
+    }
+
+    .welcome h1 {
+        margin-top: 0;
+    }
+
+    .welcome p {
+        text-align: center;
+    }
+
+    .welcome button {
+        margin-left: 35%;
+    }
+    .welcome hr{
+        display: none;
+    }
+    .wwd h1{
+        font-size: 24px;
+    }
+}
+.since{
+    background-color: rgb(255, 241, 224)
+}
+.space{
+    position: relative;
+}
+.metorid{
+    position: absolute;
+    right:30px;
+    top: 50px;
+}
+@media (max-width:989px) {
+    .metorid{
+        display: none;
+    }
+}
+.since p {
+    font-size: 24px;
+}
+.math {
+    background-image: url(../images/chalkboard-with-math-elements_1411-88.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.Physics{
+    background-color: rgb(255, 241, 224);
+}
+.Physics img{
+    width: 100%;
+    height: 650px;
+}
+.english{
+    background-color: antiquewhite;
+}
+.english img{
+    width: 100%;
+    height: 650px;
+}
+.contact{
+    background-color: wheat;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+footer ul li:hover{
+    cursor: pointer;
+    color: #00F5FF;
+    transition: .3s
+}
+
+.chat{
+    width: 4;
+}
